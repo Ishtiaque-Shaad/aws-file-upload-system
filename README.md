@@ -37,4 +37,6 @@ write this on the file..
 
 <br />
 
-in terminal run this code `composer require aws/aws-sdk-php` .... The other two packages are recommended. <br />
+In terminal run this code `composer require aws/aws-sdk-php` .... The other two packages are recommended but not obligatory. <br />
+
+After installing the environment now your free to use it... Cheers! :shipit:
