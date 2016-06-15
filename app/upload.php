@@ -1,6 +1,6 @@
 <?php
 	
-	$bucket = "redqtestbucket";
+	$bucket = "your bucket name";
 	// Get the contents of our bucket
 	$contents = $s3->getBucket($bucket);
 	foreach ($contents as $file){
