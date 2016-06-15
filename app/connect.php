@@ -5,12 +5,12 @@ if(isset($_POST['Submit'])){
 	$fileTempName = $_FILES['theFile']['tmp_name'];
 	
 	//create a new bucket
-	$s3->putBucket("redqtestbucket", S3::ACL_PUBLIC_READ);
+	$s3->putBucket("your bucket name", S3::ACL_PUBLIC_READ);
 	
 	$success = "<p><strong>We successfully uploaded your file.</strong></p>";
 	$fail = "<p><strong>Something went wrong while uploading your file... sorry.</strong></p>";
 	//move the file
-	if ($s3->putObjectFile($fileTempName, "redqtestbucket", $fileName, S3::ACL_PUBLIC_READ)) {
+	if ($s3->putObjectFile($fileTempName, "your bucket name", $fileName, S3::ACL_PUBLIC_READ)) {
 		echo $success;
 	}else{
 		echo $fail;
