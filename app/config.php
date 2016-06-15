@@ -1,8 +1,8 @@
 <?php
 require 'vendor/autoload.php';
 //AWS access info
-if (!defined('awsAccessKey')) define('awsAccessKey', 'AKIAJCYAGUPB673E3FIA');
-if (!defined('awsSecretKey')) define('awsSecretKey', 'nmog04Xg5dlrc7ediM48FBAGrsuFExCBLy9nDAvA');
+if (!defined('awsAccessKey')) define('awsAccessKey', 'your access key');
+if (!defined('awsSecretKey')) define('awsSecretKey', 'your secret key');
 
 //instantiate the class
 $s3 = new S3(awsAccessKey, awsSecretKey);
