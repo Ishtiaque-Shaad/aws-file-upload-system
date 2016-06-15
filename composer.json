@@ -1,0 +1,13 @@
+{
+	"require":{
+		"aws/aws-sdk-php":"^3.18",
+		"aws/aws-php-sns-message-validator": "^1.1",
+		"doctrine/cache": "^1.6",
+		"components/jquery": "^3.0"
+	},
+    "autoload": {
+    	"classmap":[
+    		"app/"
+    	]
+    }
+}

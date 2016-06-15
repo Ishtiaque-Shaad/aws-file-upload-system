@@ -1,0 +1,18 @@
+#main-wrapper {
+	width: 100%;
+	height: auto;
+	margin-top: 100px;
+}
+
+.holder {
+	width: 100%;
+	position: absolute;
+}
+
+.upload {
+	width: 100%;
+	padding: 50px;
+	background-color: #efefef;
+	position: relative;
+	float: left;
+}
